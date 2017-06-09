@@ -1,4 +1,4 @@
-## Frontend Nanodegree Neighborhood Map Project
+## Frontend Nanodegree Feed Reader Project
 
 This is my solution to the feedreader project of the frontend nanodegree from Udacity. The project requirement is to write unit tests using jasmine to a Rss feeds website. The tests should be comprehensive enough to test all the functionality.
 
