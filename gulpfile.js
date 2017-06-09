@@ -101,7 +101,12 @@ gulp.task('jshint', function() {
 gulp.task('compress', function (cb) {
   pump([
         gulp.src('src/**/**/*.js'),
-        $.uglify(),
+        $.uglify({
+
+      output: {
+        beautify: true
+      }
+        }),
         gulp.dest(dist())
     ],
     cb
